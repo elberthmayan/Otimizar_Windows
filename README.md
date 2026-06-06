@@ -1,38 +1,52 @@
 # Otimizador do Windows
 
-O **Otimizador do Windows** é uma ferramenta modular criada para transformar a experiência pós-formatação e melhorar a performance do sistema no dia a dia. Em vez de perder horas configurando manualmente cada detalhe, este script automatiza a remoção de bloatwares, ajustes de telemetria, otimização de serviços e muito mais.
+O **Otimizador do Windows** é uma ferramenta modular criada por **Elberth Mayan** para transformar a experiência pós-formatação e melhorar a performance do sistema no dia a dia. Em vez de perder horas configurando manualmente cada detalhe, este script automatiza a remoção de bloatwares, ajustes de telemetria, otimização de serviços e muito mais.
 
-## 🚀 Repositório Oficial
-Acompanhe o desenvolvimento e as atualizações no GitHub:
-[https://github.com/elberthmayan/Otimizar_Windows](https://github.com/elberthmayan/Otimizar_Windows)
+## 🚀 Como usar (Execução Rápida)
+
+Para rodar o otimizador instantaneamente sem precisar baixar nada, abra o **PowerShell como Administrador** e cole o comando abaixo:
+
+```powershell
+iex (irm https://raw.githubusercontent.com/elberthmayan/Otimizar_Windows/main/win-debloater.ps1)
+```
+
+## 🛠️ Instalação Local (Clonagem)
+
+Se preferir baixar o projeto completo para o seu computador:
+
+1.  Abra o terminal e clone o repositório:
+    ```bash
+    git clone https://github.com/elberthmayan/Otimizar_Windows.git
+    ```
+2.  Entre na pasta do projeto:
+    ```bash
+    cd Otimizar_Windows
+    ```
+3.  Execute o arquivo `run_test.bat` como **Administrador**.
 
 ## ✨ Funcionalidades (v3.0)
 
 A ferramenta oferece um menu interativo com as seguintes opções:
 
-1.  **Remover Bloatware:** Faxina completa de aplicativos inúteis que vêm pré-instalados no Windows.
-2.  **Configurações Iniciais:** Otimiza funções de jogos (Xbox), desativa a Cortana/Copilot e facilita a instalação de navegadores (Chrome/Brave).
-3.  **Desinstalar OneDrive:** Remove completamente o OneDrive do sistema e do explorador de arquivos.
-4.  **Bloquear Avisos:** Desativa avisos chatos de upgrade para o Windows 11 e sugestões de conta Microsoft.
-5.  **Limpeza de Sistema:** Limpa cache, arquivos temporários e lixo que acumula no disco.
-6.  **Desativar Telemetria:** Bloqueia a coleta de dados e o rastreamento da Microsoft.
-7.  **Ativar Windows / Office:** Acesso rápido a scripts de ativação integrados.
-8.  **Ferramenta Personalizada:** Abre o executável complementar localizado na pasta `Progama`.
-9.  **Ajustar Efeitos Visuais:** Configura o Windows para "Melhor Desempenho", removendo animações e sombras.
-10. **Otimizar Serviços:** Desativa serviços pesados como SysMain e telemetria, com opção para manter serviços de impressora.
-11. **Atualizar Drivers:** Utiliza o `winget` para buscar e instalar as versões mais recentes dos drivers de sistema.
-12. **Otimização Automática:** Executa as principais tarefas de uma só vez.
-13. **Reverter Alterações:** Permite restaurar o sistema para um ponto anterior caso algo não saia como o esperado.
-
-## 🛠️ Como usar
-
-1.  Baixe o conteúdo do repositório.
-2.  Execute o arquivo `run_test.bat` como **Administrador**.
-3.  Escolha as opções desejadas no menu e siga as instruções na tela.
+1.  **Remover Bloatware:** Faxina completa de aplicativos inúteis que vêm pré-instalados.
+2.  **Configurações Iniciais:** Otimiza funções de jogos, desativa IA e instala navegadores.
+3.  **Desinstalar OneDrive:** Remove completamente o OneDrive do sistema.
+4.  **Bloquear Avisos:** Desativa avisos de upgrade para Windows 11 e conta Microsoft.
+5.  **Limpeza de Sistema:** Limpa cache e arquivos temporários.
+6.  **Desativar Telemetria:** Bloqueia o rastreamento da Microsoft.
+7.  **ativar windows / office:** Scripts de ativação integrados.
+8.  **Ferramenta Personalizada:** Abre o executável complementar (pasta `Progama`).
+9.  **Ajustar Efeitos Visuais:** Foca em "Melhor Desempenho".
+10. **Otimizar Serviços:** Ajusta serviços de fundo (SysMain, Spooler, etc).
+11. **Atualizar Drivers:** Instala drivers recentes via `winget`.
+12. **Executar otimizacao automaticamente:** Roda as principais tarefas de uma vez.
+13. **REVERTER ALTERACOES:** Restaura o sistema para um ponto anterior.
+14. **Sair:** Fecha a ferramenta com segurança.
 
 ## ⚠️ Recomendações
-- O script solicita a criação de um **Ponto de Restauração** antes de alterações profundas. Recomendamos que você aceite a criação desse ponto.
-- O uso é recomendado em máquinas recém-formatadas ou por usuários que buscam extrair o máximo de performance.
+- Aceite a criação do **Ponto de Restauração** quando solicitado pelo script.
+- Recomendado para máquinas recém-formatadas ou para quem busca performance máxima.
 
 ---
-*Mantido por [elberthmayan](https://github.com/elberthmayan)*
+**Criado por: Elberth Mayan**  
+[GitHub](https://github.com/elberthmayan) | [Repositório do Projeto](https://github.com/elberthmayan/Otimizar_Windows)
